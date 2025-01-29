@@ -117,7 +117,7 @@ max-width:1100px;
 
 
 const Tittle=styled.div`
-font-size:10px;
+font-size:30px;
 font-weight:700;
 line-height:50px;
 color:${({theme})=>theme.text_primary};
