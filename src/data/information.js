@@ -1,7 +1,7 @@
 export const Bio = {
     name: "Sathwik Aerra",
     roles: [
-      "MERN Stack Developer",
+      "fullStack Developer",
       "UIUX Designer",
       "Programmer",
     ],
@@ -176,6 +176,20 @@ export const Bio = {
   ];
   
   export const projects = [
+    {
+      id: 16,
+      title: "Cobra AI",
+      date: "In Btech",
+      description:
+        "AI-powered chatbots: These use advanced machine learning and NLP to understand context, learn from interactions, and provide more dynamic, human-like responses.",
+      tags: [
+        "MERN STACK",
+        "UIUX",
+      ],
+      category: "web app",
+      image:"/Ai.png",
+      
+    },
     {
       id: 15,
       title: "Campus Connect",

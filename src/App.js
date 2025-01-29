@@ -16,7 +16,7 @@ const Body=styled.div`
 background-color:${({ theme })=>theme.bg};
 width:100%;
 height:100%;
-overflow-x:hidden;
+/* overflow-x:hidden; */
 `;//creating  tags containers  with styled components
 
 const Wrapper=styled.div`

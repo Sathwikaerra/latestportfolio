@@ -117,9 +117,9 @@ max-width:1100px;
 
 
 const Tittle=styled.div`
-font-size:50px;
+font-size:10px;
 font-weight:700;
-line-height:70px;
+line-height:50px;
 color:${({theme})=>theme.text_primary};
 @media (max-width: 960px) {
  text-align:center;
@@ -136,7 +136,7 @@ color:${({theme})=>theme.text_primary};
 
 
 const TextLoop=styled.div`
-font-size:32px;
+font-size:20px;
 font-weight:600px;
 color:${({theme})=>theme.text_primary};
 line-height:70px;
@@ -160,7 +160,7 @@ cursor:pointer;
 `;
 
 const SubTittle=styled.div`
-font-size:20px;
+font-size:18px;
 font-weight:400;
 color:${({theme})=>theme.text_primary+99};
 line-height:32px;
@@ -302,6 +302,7 @@ const  Hero=() =>{
                         autoStart: true,
                         loop: true,
                       }}
+                      style={{ fontSize:10 }}
                     />
                   </Span>
                 </TextLoop>

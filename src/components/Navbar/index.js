@@ -32,7 +32,7 @@ const NavbarContainer = styled.div`
   align-items: center;
   justify-content:center;
   font-size: 1rem;
-  gap: 100px;
+  gap: 80px;
 `;
 const NavLogo = styled(LinkR)`
   display: flex;
@@ -62,6 +62,9 @@ const NavItems = styled.ul`
 const NavLink = styled.a`
   color: ${({ theme }) => theme.text_primary};
   font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
@@ -76,7 +79,7 @@ const ButtonContainer = styled.div`
   display: flex;
   justify-content: end;
   align-items: center;
-  gap: 30px;
+  gap: 5px;
   padding: 0 6px;
   @media screen and (max-width: 768px) {
     display: none;
@@ -92,8 +95,8 @@ const GithubButton = styled.a`
   align-items: center;
   border-radius: 20px;
   cursor: pointer;
-  padding: 10px 20px;
-  font-size: 16px;
+  padding: 8px 16px;
+  font-size: 13px;
   font-weight: 500;
   transition: all 0.6s ease-in-out;
   text-decoration: none;
@@ -113,8 +116,8 @@ margin-left: 20px;
   gap: 8px;
   border-radius: 20px;
   cursor: pointer;
-  padding: 10px 20px;
-  font-size: 16px;
+  padding: 8px 16px;
+  font-size: 13px;
   font-weight: 500;
   transition: all 0.6s ease-in-out;
   text-decoration: none;
@@ -134,8 +137,8 @@ margin-left: 20px;
   gap: 8px;
   border-radius: 20px;
   cursor: pointer;
-  padding: 10px 20px;
-  font-size: 16px;
+  padding: 8px 16px;
+  font-size: 13px;
   font-weight: 500;
   transition: all 0.6s ease-in-out;
   text-decoration: none;
@@ -223,15 +226,15 @@ const Navbar = () => {
             </NavLink>
             <NavLink onClick={() => setIsOpen(!isOpen)} href={Bio.github}
               target="_Blank">
-              GitHub
+              <AiFillGithub size={20}/>Github
             </NavLink>
             <NavLink onClick={() => setIsOpen(!isOpen)}  href={Bio.linkedin}
               target="_Blank">
-              LinkedIn
+               <AiFillLinkedin size={20}/> LinekdIn
             </NavLink>
             <NavLink onClick={() => setIsOpen(!isOpen)}  href={Bio.insta}
               target="_Blank">
-              Instagram
+             <AiFillInstagram  size={20}/>Instagrram
             </NavLink>
            
         
